@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+}
+hr{
+    width: 99%;
+}
+.btn{
+    margin: 20px 0 20px 0;
+}
+.bold_one{
+    font-weight: bold;
+}
