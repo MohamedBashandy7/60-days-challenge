@@ -1,11 +1,10 @@
-nav {
-  background-color: #f4f4f4;
-}
 .container {
   display: flex;
   justify-content: space-between;
   padding: 30px;
   padding-bottom: 0;
+  background-color: #f4f4f4;
+
 }
 .texts {
   padding: 80px;
@@ -22,10 +21,6 @@ nav {
   color: white;
   cursor: pointer;
 }
-/* .image{
-
-} */
-
 .image-container img {
   width: 700px; /* عرض الصورة */
   height: 400px;

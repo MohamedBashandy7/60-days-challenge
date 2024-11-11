@@ -1,0 +1,19 @@
+.con2 {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+.gray {
+  color: gray;
+  font-family: sans-serif;
+}
+.fn-15 {
+  font-size: 15px;
+}
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -12,6 +12,6 @@
     </div>
     <div class='container'>
         <p class="product-detials">▾ Product Detials </p>
-        <p class="page-layout"> 01 &nbsp;———&nbsp; 04 &nbsp;&nbsp;&nbsp;→</p>
+        <p class="page-layout"> 01 &nbsp;———&nbsp; 04 &nbsp;&nbsp;&nbsp;→ </p>
     </div>
 </nav>

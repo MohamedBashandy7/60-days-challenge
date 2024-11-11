@@ -1,0 +1,26 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  width: 350px;
+  padding: 20px;
+  margin: 15px; /* تقليص المسافة بين المنتجات */
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* عرض 3 أعمدة */
+  gap: 30px; /* المسافة بين الأعمدة */
+  padding: 0 100px;
+}
+
+.img {
+  mix-blend-mode: multiply; /* استخدام blend mode لتغيير الخلفية */
+}
