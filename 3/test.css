@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+}
+
+.header .left,
+.header .right {
+  display: flex;
+  align-items: center;
+}
+
+.header .center {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .left a,
+.header .right a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #000;
+}

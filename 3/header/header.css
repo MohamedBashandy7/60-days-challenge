@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+.hr1 {
+  width: 25px;
+}
+.hr2 {
+  width: 20px;
+}
+.hr3 {
+  width: 15px;
+}
+.hr1,
+.hr2,
+.hr3 {
+  background-color: black;
+  margin: 0;
+  margin-bottom: 3px;
+  height: 3px;
+}
+.header {
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+div,
+.back {
+  margin: 0;
+}
+.back {
+  cursor: pointer;
+  margin-left: 100px;
+}
+.alpine {
+  font-family: "Questrial", sans-serif;
+  margin: 0;
+  letter-spacing: 3px;
+  font-stretch: expanded;
+  font-size: 25px;
+  transform: scaleX(1.5); /* زيادة عرض الحروف بنسبة 150% */
+}
+.right,
+.left,
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.list-component {
+  display: flex;
+  flex-direction: column;
+}
+.cart {
+  color: rgb(90, 124, 224);
+}
+.left {
+  gap: 20px;
+}
+.lang {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+}
