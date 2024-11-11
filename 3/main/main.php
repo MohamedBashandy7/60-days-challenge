@@ -53,7 +53,7 @@ $myarray = [
             foreach($myarray as $product){
         ?>
         <div class="product">
-            <img class = "img" width = '350' src="<?php echo $product['url'] ?>" alt="<?php echo $product['name'] ?>">
+            <img class = "img" width = '350' height = '350' src="<?php echo $product['url'] ?>" alt="<?php echo $product['name'] ?>">
             <div class = "details-container">
                 <p><?php echo $product['name'] ?></p>
                 <p><?php echo $product['price'] ?></p>

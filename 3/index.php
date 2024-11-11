@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./nav/nav.css">
     <link rel="stylesheet" href="./nav2/nav2.css">
     <link rel="stylesheet" href="./main/main.css">
+    <link rel="stylesheet" href="./footer/footer.css">
 </head>
 
 <body>
@@ -16,5 +17,6 @@
     <?php include('./nav/nav.php'); ?>
     <?php include('./nav2/nav2.php'); ?>
     <?php include('./main/main.php'); ?>
+    <?php include('./footer/footer.php'); ?>
 </body>
 </html>

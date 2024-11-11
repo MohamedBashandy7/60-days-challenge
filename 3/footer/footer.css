@@ -1,0 +1,17 @@
+.con3 {
+  padding: 50px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.opem {
+  color: rgb(46, 46, 224);
+}
+a {
+  text-decoration: none;
+}
+.center-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
