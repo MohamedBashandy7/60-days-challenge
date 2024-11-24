@@ -1,0 +1,431 @@
+header {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+    line-height: 1.15;
+}
+body {
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+}
+header,
+section,
+body,
+.main-list ul,
+.product-text,
+.product-cards,
+.service-cards,
+.service-card,
+.services-text,
+.card-href,
+.seo,
+.contact-form,
+.footer-right-imgs,
+footer,
+.footer-contact,
+.footer-middle-left li,
+.footer-middle-right li,
+.footer-copy_right {
+    display: flex;
+}
+header,
+section,
+footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+.main-list ul li,
+.main-list ul li a,
+.home .home-text a {
+    color: white;
+}
+.main-list ul li a {
+    text-decoration: none;
+}
+.main-list ul {
+    list-style-type: none;
+    gap: 2rem;
+}
+header {
+    position: sticky;
+    top: 0; /* تثبيت الهيدر عند أعلى الصفحة */
+    z-index: 1000; /* لإبقائه فوق جميع العناصر */
+}
+.home,
+.home-img,
+.service-cards {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.home .home-text h1,
+.about .about-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2a445a;
+}
+.home .home-text p {
+    font-size: 26px;
+    line-height: 1.8;
+    letter-spacing: 1.1px;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+}
+.home .home-text a {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+button,
+a {
+    cursor: pointer;
+}
+header,
+.home .home-text a {
+    background-color: #07adb7;
+}
+.main-list ul li a:hover {
+    color: #2a445a;
+}
+.home .home-text a:hover {
+    color: #2d4059;
+    background-color: #1acdd6;
+}
+.main-list ul li a:hover,
+.home .home-text a:hover,
+.contact input,
+.facebook:hover,
+.instagram:hover,
+.footer-middle-right li:hover {
+    transition: 0.3s;
+}
+.home .home-text h1,
+.home .home-text a {
+    font-weight: bold;
+}
+.about,
+.services {
+    background-color: #f6fafd;
+}
+.services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about,
+.products {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.about .about-text h4 {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: #333;
+}
+.play {
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(681%, 1006%);
+    cursor: pointer;
+}
+.about-img {
+    padding-top: 130px;
+}
+
+body,
+.products,
+.product-text,
+.services,
+.services-text,
+.service-card,
+.contact-form,
+.contact,
+footer {
+    flex-direction: column;
+}
+.products,
+.product-text,
+.contact-text,
+.services,
+.services-text,
+.contact,
+.footer-copy_right {
+    align-items: center;
+    justify-content: center;
+}
+.product-text h1,
+.services-text h1,
+.contact-text h1 {
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #2a445a;
+}
+.product-text p,
+.services-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.m1 {
+    margin-top: 30px !important;
+}
+.m2 {
+    margin-bottom: 30px !important;
+}
+.product-cards,
+.service-cards {
+    gap: 4rem;
+}
+.product-card,
+.service-card {
+    width: 350px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+.card-text,
+.service-text {
+    padding: 20px;
+}
+.card-text p,
+.service-text p,
+.service-text h3,
+.service-card {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.2;
+    line-height: 1.5;
+}
+.card-text p {
+    color: #777;
+}
+.product-card-hr {
+    border: none;
+    border-top: 0.5px solid #e5e5e5; /* يمكن تغيير السمك واللون هنا */
+}
+.product-card {
+    border-radius: 5px;
+}
+.product-card img {
+    border-top-left-radius: 5px; /* زوايا دائرية للجزء العلوي الأيسر */
+    border-top-right-radius: 5px; /* زوايا دائرية للجزء العلوي الأيمن */
+    display: block; /* إزالة المسافات الفارغة أسفل الصورة */
+}
+.card-href a {
+    text-decoration: none;
+    color: rgb(87, 155, 194);
+    font-weight: bold;
+}
+.card-href {
+    padding: 20px;
+    justify-content: space-between;
+}
+.con1 {
+    font-size: 25px;
+}
+.product-card:hover,
+.service-card:hover {
+    mix-blend-mode: multiply;
+    transform: translateY(-15px);
+    transition: transform 0.5s ease;
+}
+.m3 {
+    color: #0c2f5e;
+    padding-bottom: 1rem;
+}
+.m3,
+.service-text p {
+    font-size: 18px;
+    line-height: 1.15;
+}
+.service-text p {
+    color: #444;
+}
+.service-text h3 {
+    text-align: center;
+    margin: 20px 0 20px;
+    font-size: 25px;
+    color: #2a445a;
+}
+.service-card {
+    align-items: center;
+}
+
+.service-card img {
+    margin-top: 30px;
+    mix-blend-mode: multiply;
+}
+.service-text h3 {
+    margin: 0;
+}
+.service-text {
+    padding-top: 0;
+}
+.seo {
+    gap: 40px;
+    background-color: #0f504a;
+    justify-content: initial;
+}
+.seo img {
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.seo p,
+.seo h3 {
+    margin-top: 90px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    line-height: 1.15;
+}
+.m5,
+.seo h3 {
+    margin-top: 0 !important;
+}
+
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.contact-form {
+    width: 100%;
+}
+.contact input {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+    font-size: 100%;
+    line-height: 1.15;
+}
+.contact input:focus,
+.contact textarea:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contact label {
+    font-size: 20px;
+    padding-left: 0.2rem;
+}
+.contact textarea {
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #ddd;
+    outline: none;
+    height: 10.5rem;
+    border-radius: 0.3rem;
+    width: 100.5%;
+    overflow: auto;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.contact button {
+    background-color: #07adb7;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    width: 103%;
+}
+.contact button:hover {
+    color: #2d4059;
+    background-color: #1acdd6;
+}
+footer {
+    background: linear-gradient(
+        45deg,
+        rgba(8, 73, 67, 1) 15%,
+        rgba(8, 73, 67, 1) 39%,
+        rgba(37, 101, 95, 1) 67%,
+        rgba(8, 73, 67, 1) 80%
+    );
+    padding-top: 30px;
+}
+
+.footer-right-imgs img {
+    background-color: rgb(0 60 55);
+}
+.facebook:hover {
+    background-color: #1877f2;
+}
+.instagram:hover {
+    background-color: #b328cf;
+}
+.footer-right p {
+    line-height: 2;
+    color: #b9b9b9;
+}
+.footer-right h1 {
+    color: #fff;
+}
+.footer-right-imgs {
+    gap: 18px;
+}
+.footer-middle-right li,
+.footer-middle-left li {
+    list-style-type: none;
+    align-items: center;
+    color: #b9b9b9;
+}
+.footer-middle-right-hr {
+    width: 250px;
+}
+.footer-middle-right li:hover {
+    margin-left: 10px;
+}
+.footer-middle-right a {
+    text-decoration: none;
+    color: #b9b9b9;
+}
+.footer-middle-right a:hover {
+    color: #fff;
+}
+.footer-middle-left li {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.footer-middle-left span {
+    margin-left: 15px;
+}
+.footer-left img {
+    width: 78px;
+    border: 3px solid white;
+    margin: 2px;
+}
+
+.footer-contact {
+    width: 106%;
+}
+
+.footer-left {
+    width: 23%;
+}
+.footer-hr {
+    width: calc(100% + 198px); /* توسيع العرض ليعوض الـ padding */
+    margin: 0 -100px; /* إزالة تأثير padding الخاص بالفوتر */
+}
+.footer-copy_right {
+    color: #fff;
+}

@@ -1,36 +1,35 @@
 .container {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
-  padding-bottom: 0;
-  background-color: #f4f4f4;
-
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 0;
+    background-color: #f4f4f4;
 }
 .texts {
-  padding: 80px;
-  padding-bottom: 20px;
+    padding: 80px;
+    padding-bottom: 20px;
 }
 .buy-it {
-  color: rgb(90, 90, 207);
-  border: 1px solid rgb(90, 90, 207);
-  padding: 15px 120px;
-  border-radius: 5px;
+    color: rgb(90, 90, 207);
+    border: 1px solid rgb(90, 90, 207);
+    padding: 15px 120px;
+    border-radius: 5px;
 }
 .buy-it:hover {
-  background-color: rgb(90, 90, 207);
-  color: white;
-  cursor: pointer;
+    background-color: rgb(90, 90, 207);
+    color: white;
+    cursor: pointer;
 }
 .image-container img {
-  width: 700px; /* عرض الصورة */
-  height: 400px;
-  mix-blend-mode: multiply; /* استخدام blend mode لتغيير الخلفية */
-  object-fit: cover;
-  object-position: center -120px;
+    width: 700px; /* عرض الصورة */
+    height: 400px;
+    mix-blend-mode: multiply; /* استخدام blend mode لتغيير الخلفية */
+    object-fit: cover;
+    object-position: center -120px;
 }
 .product-detials {
-  padding-left: 80px;
+    padding-left: 80px;
 }
 .page-layout {
-  padding-right: 230px;
+    padding-right: 230px;
 }
